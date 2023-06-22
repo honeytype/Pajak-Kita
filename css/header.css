@@ -1,0 +1,27 @@
+/*---------------Navbar------------*/
+#navbar{
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 10;
+}
+
+.bold{
+    font-size: 25px;   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+li{
+    padding: 5px;
+}
+.nav-link{
+    font-size: 15px;
+    font-weight: bold;
+    color: blue;
+    border: 2px solid transparent;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav-link:hover{
+    border-bottom: 2px solid blue;
+    transition: .1s;
+    
+}

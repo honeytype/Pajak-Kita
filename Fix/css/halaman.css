@@ -1,0 +1,173 @@
+/*---------------Navbar------------*/
+#navbar{
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 10;
+}
+
+.bold{
+    font-size: 25px;   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+li{
+    padding: 5px;
+}
+.nav-link{
+    font-size: 15px;
+    font-weight: bold;
+    color: blue;
+    border: 2px solid transparent;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav-link:hover{
+    border-bottom: 2px solid blue;
+    transition: .1s;
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: 'Open Sans',sans-serif;
+}
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*------------Layanan---------*/
+
+span{
+    color: #0d6efd;
+    font-weight: bold;
+}
+p{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*------------------------Tentang------------*/
+
+#Tentang img{
+    width:25 rem ;
+    height: 25 rem;
+    border-radius: 50 px;
+}
+
+/*------------Price Table-------------*/
+#price-table *{
+    margin: 100px;
+    padding: 100x;
+}
+#price-table
+h1{
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+#price-table
+h1:after{
+    content: '';
+    background: black;
+    display: block;
+    height: 3px;
+    width: 200px;
+    margin: 15px auto;
+}
+#price-table{
+    padding: 60px 0;
+}
+.single-price{
+    margin: 10px auto;
+    display: inline;
+    float: left;
+    width: 100%;
+    background-color: #efefef;
+    transition: 0.5s;
+}
+.single-price :hover{
+    box-shadow: 0 2px 0px #ccc;
+}
+.price-head{
+    background-color: #0d6efd;
+    display: inline;
+    float: left;
+    padding: 10px 5px;
+    text-align: center;
+    width: 100%;
+}
+.price-head h2{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding: 5px;
+    text-transform: uppercase;
+}
+.price-head h5{
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding: 2px;
+    text-transform: uppercase;
+}
+.price-content{
+    display: inline;
+    float: left;
+    width: 100%;
+    padding: 0 15px;
+}
+.price-content ul li{
+    border-bottom: 1px solid #fff;
+    padding: 15px 10px;
+    list-style: none;
+}
+.price-content ul li:last-child{
+    border: none;
+
+}
+.fa{
+    padding: 0 10px;
+    font-size: 20px;
+}
+.fa-check-circle{
+    color: green;
+}
+.price-bottom{
+    display: inline;
+    float: left;
+    padding: 15px 15px 30px;
+    text-align: center;
+    width: 100%;
+}
+.buy-btn{
+    background-color: #2196f3;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    padding: 15px 50px;
+    transition: all 0.5s ;
+}
+.buy-btn:hover{
+    border-color: 1px solid #fff;
+    background-color: #3f51b5;
+}
+.price-bottom a{
+    text-decoration: none ! important;
+    color: #fff ! important;
+}
+
+
+
+
